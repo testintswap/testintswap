@@ -1,0 +1,227 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <meta charset="utf-8">
+  <title>Intswap</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">@font-face{font-family:'Rajdhani';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pb0EPOqeefkkbIxyyg.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pb0EPOleefkkbIxyyg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pb0EPOreefkkbIx.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pbYF_OqeefkkbIxyyg.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pbYF_OleefkkbIxyyg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pbYF_OreefkkbIx.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pa8FvOqeefkkbIxyyg.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pa8FvOleefkkbIxyyg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Rajdhani';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pa8FvOreefkkbIx.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+  <link href="assets/material-font/icon.css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/material-font/icon.css"></noscript>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+<style>body,html{height:100%;width:100%}body{color:#000000d9}img{vertical-align:middle}html{-webkit-tap-highlight-color:transparent}*,:after,:before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;--antd-wave-shadow-color:#1890ff;--scroll-bar:0}body{margin:0;font-size:14px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-variant:tabular-nums;line-height:1.5715;background-color:#fff;font-feature-settings:"tnum","tnum"}img{border-style:none}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}:root{--swiper-theme-color:#ff91c6;--swiper-navigation-size:24px }html,body{height:100vh;background:#000000;min-width:320px;overflow:hidden}html,body{height:100vh;background:#fff;min-width:320px;overflow:hidden}body{margin:0;font-family:Rajdhani,Helvetica Neue,sans-serif!important}</style><link rel="stylesheet" href="styles.e31324a48ab04c28.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.e31324a48ab04c28.css"></noscript></head>
+
+<body>
+  <app-root>
+    <style>
+      html,
+      body,
+      app-root {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      app-root {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+
+      .noscript-container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 90px;
+        font-size: 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", sans-serif;
+      }
+
+      .noscript-enableJS {
+        padding-right: 3px;
+        padding-left: 3px;
+      }
+
+      .page-loading-warp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 98px;
+      }
+
+      .spin {
+        position: absolute;
+        display: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.65);
+        color: #fff;
+        font-size: 14px;
+        font-variant: tabular-nums;
+        line-height: 1.5;
+        text-align: center;
+        list-style: none;
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+        transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+        transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+        transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86),
+          -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+        -webkit-font-feature-settings: "tnum";
+        font-feature-settings: "tnum";
+      }
+
+      .spin-spinning {
+        position: static;
+        display: inline-block;
+        opacity: 1;
+      }
+
+      .spin-dot {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+      }
+
+      .spin-dot-item {
+        position: absolute;
+        display: block;
+        width: 9px;
+        height: 9px;
+        background-color: rgb(0, 234, 255);
+        border-radius: 100%;
+        -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+        -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        opacity: 0.3;
+        -webkit-animation: spinMove 1s infinite linear alternate;
+        animation: spinMove 1s infinite linear alternate;
+      }
+
+      .spin-dot-item:nth-child(1) {
+        top: 0;
+        left: 0;
+      }
+
+      .spin-dot-item:nth-child(2) {
+        top: 0;
+        right: 0;
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+      }
+
+      .spin-dot-item:nth-child(3) {
+        right: 0;
+        bottom: 0;
+        -webkit-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+      }
+
+      .spin-dot-item:nth-child(4) {
+        bottom: 0;
+        left: 0;
+        -webkit-animation-delay: 1.2s;
+        animation-delay: 1.2s;
+      }
+
+      .spin-dot-spin {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-animation: rotate 1.2s infinite linear;
+        animation: rotate 1.2s infinite linear;
+      }
+
+      .spin-lg .spin-dot {
+        width: 32px;
+        height: 32px;
+        font-size: 32px;
+      }
+
+      .spin-lg .spin-dot i {
+        width: 14px;
+        height: 14px;
+      }
+
+      .breathing-text {
+        animation: breathingText 1.5s ease 0s infinite;
+      }
+
+      @media all and (-ms-high-contrast: none),
+      (-ms-high-contrast: active) {
+        .spin-blur {
+          background: #fff;
+          opacity: 0.5;
+        }
+      }
+
+      @-webkit-keyframes spinMove {
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes spinMove {
+        to {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes rotate {
+        to {
+          -webkit-transform: rotate(405deg);
+          transform: rotate(405deg);
+        }
+      }
+
+      @keyframes rotate {
+        to {
+          -webkit-transform: rotate(405deg);
+          transform: rotate(405deg);
+        }
+      }
+
+      @keyframes breathingText {
+        0% {
+          color: rgba(205, 255, 255, 0.2);
+        }
+
+        50% {
+          color: rgba(255, 155, 211, 0.85);
+        }
+
+        100% {
+          color: rgba(205, 255, 255, 0.2);
+        }
+      }
+
+    </style>
+    <div style="
+    background:linear-gradient(180deg, #fceeff 0%, #fff5d4 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  ">
+      <div class="page-loading-warp">
+        <!-- <div class="spin spin-lg spin-spinning">
+          <span class="spin-dot spin-dot-spin"><i class="spin-dot-item"></i><i class="spin-dot-item"></i><i
+              class="spin-dot-item"></i><i class="spin-dot-item"></i></span>
+        </div> -->
+        <img src="/assets/imgs/logo.png" style="width: 30vw;">
+      </div>
+      <span class="breathing-text">Welcome to Intswap !</span>
+    </div>
+  </app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.8ab1913589cbc8db.js" type="module"></script><script src="polyfills.14bfaaf9bc10d120.js" type="module"></script><script src="main.163200f16229d02c.js" type="module"></script>
+
+
+</body></html>
