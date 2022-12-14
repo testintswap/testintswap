@@ -359,17 +359,6 @@
     },
     {
       "inputs": [],
-      "name": "baseTokenVirtualReserve",
-      "outputs": [{
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
       "name": "blockTimestampLast",
       "outputs": [{
         "internalType": "uint256",
@@ -523,17 +512,6 @@
     {
       "inputs": [],
       "name": "nftRealReserve",
-      "outputs": [{
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "nftVirtualReserve",
       "outputs": [{
         "internalType": "uint256",
         "name": "",
@@ -826,11 +804,6 @@
         },
         {
           "internalType": "uint256",
-          "name": "newSqrtPrice",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
           "name": "tradingFee",
           "type": "uint256"
         },
@@ -853,11 +826,6 @@
       "outputs": [{
           "internalType": "uint256",
           "name": "baseTokenOutputAmount",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "newSqrtPrice",
           "type": "uint256"
         },
         {
@@ -1013,6 +981,17 @@
           "type": "uint256"
         }
       ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTVLWithBaseToken",
+      "outputs": [{
+        "internalType": "uint256",
+        "name": "tvl",
+        "type": "uint256"
+      }],
       "stateMutability": "view",
       "type": "function"
     }
