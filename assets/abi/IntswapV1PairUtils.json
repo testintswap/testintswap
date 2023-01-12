@@ -1,0 +1,23 @@
+{
+  "abi": [{
+    "inputs": [{
+      "internalType": "contract IIntswapV1Pair",
+      "name": "_pair",
+      "type": "address"
+    }],
+    "name": "getAvailablePriceRange",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "availableMaxSqrtPrice",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "availableMinSqrtPrice",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }]
+}
