@@ -119,6 +119,24 @@
       "anonymous": false,
       "inputs": [{
           "indexed": false,
+          "internalType": "uint256",
+          "name": "maxMultiple",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "minMultiple",
+          "type": "uint256"
+        }
+      ],
+      "name": "NewPriceRangeMultiple",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [{
+          "indexed": false,
           "internalType": "address",
           "name": "pair",
           "type": "address"
@@ -185,9 +203,9 @@
         },
         {
           "indexed": false,
-          "internalType": "uint256[]",
+          "internalType": "uint16[]",
           "name": "tokenIds",
-          "type": "uint256[]"
+          "type": "uint16[]"
         }
       ],
       "name": "PruneOtherNFTs",
@@ -259,7 +277,7 @@
     },
     {
       "inputs": [],
-      "name": "defaultMaxSqrtPrice",
+      "name": "defaultMaxSqrtPriceMultiple",
       "outputs": [{
         "internalType": "uint256",
         "name": "",
@@ -271,7 +289,7 @@
     },
     {
       "inputs": [],
-      "name": "defaultMinSqrtPrice",
+      "name": "defaultMinSqrtPriceMultiple",
       "outputs": [{
         "internalType": "uint256",
         "name": "",
@@ -461,9 +479,9 @@
           "type": "address"
         },
         {
-          "internalType": "uint256[]",
+          "internalType": "uint16[]",
           "name": "_tokenIds",
-          "type": "uint256[]"
+          "type": "uint16[]"
         },
         {
           "internalType": "uint256",
@@ -477,6 +495,23 @@
         "name": "newPair",
         "type": "address"
       }],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{
+          "internalType": "uint256",
+          "name": "_defaultMaxSqrtPriceMultiple",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_defaultMinSqrtPriceMultiple",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateMarketMakerPriceRangeMultiple",
+      "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
     },
@@ -615,9 +650,9 @@
           "type": "address"
         },
         {
-          "internalType": "uint256[]",
+          "internalType": "uint16[]",
           "name": "_tokenIds",
-          "type": "uint256[]"
+          "type": "uint16[]"
         }
       ],
       "name": "pruneOtherNFTs",
@@ -716,8 +751,30 @@
           "internalType": "uint256",
           "name": "deltaBaseToken",
           "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "defaultMaxSqrtPrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "defaultMinSqrtPrice",
+          "type": "uint256"
         }
       ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "getTotalTVLWithBaseToken",
+      "outputs": [{
+        "internalType": "uint256",
+        "name": "totalTVL",
+        "type": "uint256"
+      }],
       "stateMutability": "view",
       "type": "function",
       "constant": true
