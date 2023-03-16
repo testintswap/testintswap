@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1678764720420,
+  "timestamp": 1678953020498,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -151,6 +151,7 @@
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-168x189.png",
         "/assets/icons/icon-192x192.png",
         "/assets/icons/icon-384x384.png",
         "/assets/icons/icon-512x512.png",
@@ -307,6 +308,7 @@
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-168x189.png": "f46b24d9858900ba3cdfc686511085e5e207f063",
     "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
     "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
@@ -335,7 +337,7 @@
     "/assets/imgs/discord_white.png": "25dc11179b9291a85edb977f6510c831f68706a2",
     "/assets/imgs/github.png": "333a980c8edb3d4a9e34511529f401d66f652bb7",
     "/assets/imgs/github_white.png": "098fa59a6a3636307b260053b80945054ccd751c",
-    "/assets/imgs/logo.png": "48d9fcba7a0a2f3b8a3f9d221d304999e2d81b76",
+    "/assets/imgs/logo.png": "b59d6db0271d4c633b448dd935ff1d38654cc862",
     "/assets/imgs/logo1.png": "c813b351195488014d814816bb3805debaaf4346",
     "/assets/imgs/logo_white.png": "945c13a9b6909e98b90f9cdeaa574f697b9e0ead",
     "/assets/imgs/medium.png": "8286f0ad77d07c7aebea6ce4b04903fed8f56f99",
@@ -390,7 +392,7 @@
     "/favicon.ico": "38ee2ced2d80be9f70de3e250691f1268b3d28d2",
     "/index.html": "d25adfd83c3e06814eec79c82cc05051f7c3dc82",
     "/main.256172029731ce9e.js": "eda5c208da674ba47de7b4ff0a90031b0458179e",
-    "/manifest.webmanifest": "7bfd605c7f951d81940093a3798b04171f29cb9a",
+    "/manifest.webmanifest": "e943c9687dde907eabffcd79030d1f946e3cba9f",
     "/polyfills.33379972c78913ce.js": "46f333cfba9d6e135569720a31e17ee88e5e6333",
     "/runtime.f583d0e45749e4b6.js": "189c58e4dcff355a73a6a6322fb127fd23c53f1c",
     "/styles.e31324a48ab04c28.css": "dbfb24f468880da8023f095f4712cecee764309e"
