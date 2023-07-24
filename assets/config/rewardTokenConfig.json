@@ -1,7 +1,17 @@
-[{
-  "rewardToken": "0xb86855d292DA3E9885Ed481112FD73F17571f811",
-  "pair": "0x74Ed4B55a2B18a684fe58Bd4F4bE49fcD5d9473B",
-  "decimals0":18,
-  "decimals1":18,
-  "isToken0": false
-}]
+[
+  {
+    "rewardToken": "0xb86855d292DA3E9885Ed481112FD73F17571f811",
+    "pair": "0x74Ed4B55a2B18a684fe58Bd4F4bE49fcD5d9473B",
+    "decimals0": 18,
+    "decimals1": 18,
+    "isToken0": false
+  },
+  {
+    "rewardToken": "0x3d0Cea8684d1B4649A5355E83909ae16FDFfa31A",
+    "pair": "0x74Ed4B55a2B18a684fe58Bd4F4bE49fcD5d9473B",
+    "decimals0": 18,
+    "decimals1": 18,
+    "isToken0": false,
+    "price":"0.001"
+  }
+]
