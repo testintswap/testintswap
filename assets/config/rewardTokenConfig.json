@@ -12,6 +12,10 @@
     "decimals0": 18,
     "decimals1": 18,
     "isToken0": false,
-    "price":"0.001"
+    "price": "0.001"
+  },
+  {
+    "rewardToken": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+    "price": "1"
   }
 ]
