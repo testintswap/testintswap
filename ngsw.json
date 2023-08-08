@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1691461284179,
+  "timestamp": 1691462296155,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -48,7 +48,7 @@
         "/5588.85689345d62a180c.js",
         "/5658.05f81b64e2bbc2ab.js",
         "/5682.8c0ade9375b8bc45.js",
-        "/5715.e2616050da10dd53.js",
+        "/5715.b53df7c18ad05b21.js",
         "/5733.5be8084a08c4b71a.js",
         "/5895.7eacbb2a4582cf97.js",
         "/6030.2685f431221173c7.js",
@@ -118,7 +118,7 @@
         "/main.a75d256efe8bf783.js",
         "/manifest.webmanifest",
         "/polyfills.ba8be0f942852940.js",
-        "/runtime.8533980facf7bc5a.js",
+        "/runtime.e62725b6ef787ddf.js",
         "/styles.f05a5caf4abf456b.css"
       ],
       "patterns": [
@@ -310,7 +310,7 @@
     "/5588.85689345d62a180c.js": "4c2f46bea13324ed6a4ba9a0cc7e15efae6292c4",
     "/5658.05f81b64e2bbc2ab.js": "ac56361284c3fc4c9e49daa91a2f59c882da2f3f",
     "/5682.8c0ade9375b8bc45.js": "3a2d9c0f5a4396f249fdd7e7a03b37228cbf685f",
-    "/5715.e2616050da10dd53.js": "2f29acd74173b864529cd693bfb23c9661253188",
+    "/5715.b53df7c18ad05b21.js": "d6035145026df0656c1feb9fae0b4acbc58cb7eb",
     "/5733.5be8084a08c4b71a.js": "4af325ced6c61b6adf5803619d11ae1478003b1b",
     "/5895.7eacbb2a4582cf97.js": "808d50236df9eb0a43809b787e76e39d50b5ec6a",
     "/6030.2685f431221173c7.js": "8af8efad241a42287004ed6eda9460951eeb0686",
@@ -369,7 +369,7 @@
     "/assets/abi/IntswapV1StakingCenter.json": "1b54758616ded5a01bd8b9f3915775eed67d5892",
     "/assets/abi/RoyaltyDistributionStrategy.json": "939781dcac226d90d5e727b8c2074fe70a3f1fdd",
     "/assets/abi/TestnetCenter.json": "87e1de632fbf01c0a72507aba646280126c4cfdb",
-    "/assets/config/advancedMerklelList.json": "d8dc8c25932edbf1b7b13e242d855ed253547088",
+    "/assets/config/advancedMerklelList.json": "9e2c7d9a0285fcc7bfc449587b9122e8b530384a",
     "/assets/config/bannerImg.json": "755ccb309e01333f5e8b7f0e0c539912af2275df",
     "/assets/config/basicMerkleList.json": "3827601433309a016e3228cd88bde27d93ca76e3",
     "/assets/config/rewardTokenConfig.json": "a4de2a692dd4142568b87af84a1b1cde238a97dd",
@@ -506,11 +506,11 @@
     "/assets/material-font/icon.css": "e380d37fefeed520f847e10ef45b0b91c095ed27",
     "/common.0be8331444a002dd.js": "b10772ab7579bafc38687bd3f992167276baa77f",
     "/favicon.ico": "38ee2ced2d80be9f70de3e250691f1268b3d28d2",
-    "/index.html": "9e532844649275fc57402cda0425547ba4e015ca",
+    "/index.html": "3788afc227f6f427ea7b057d6b24e01894957853",
     "/main.a75d256efe8bf783.js": "a4a4cffd9a245cf4be0e21c1d60785da8c4354d1",
     "/manifest.webmanifest": "26c2fc14e76627593f51a896906e6d9a61ff4890",
     "/polyfills.ba8be0f942852940.js": "0ed20fa32932f78120d31e23a341ef8e4696467b",
-    "/runtime.8533980facf7bc5a.js": "eef18d79b4b731f3933212fad934b6adc7c5073f",
+    "/runtime.e62725b6ef787ddf.js": "65f5d1459e61725ae39131169a7e2625dff06149",
     "/styles.f05a5caf4abf456b.css": "f4bad38cbc074afa321862dc44996a012a9a342b"
   },
   "navigationUrls": [
